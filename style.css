@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.color-display {
+    width: 250px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF; /* baslangic metni*/
+    transition: background-color 0.5s ease; /*yumusaq kecid        */
+}
+
+#color-code {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /*Metin rengi */
+    background-color: rgba(255, 255, 255, 0.8); /* Fon */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#generate-button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-button:hover {
+    background-color: #0056b3;
+}
